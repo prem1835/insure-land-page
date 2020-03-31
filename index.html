@@ -40,9 +40,10 @@
         <button class="header__button">View plans</button>
       </div>
       </div>
-        <div class="header__img-box">
-          <img src="images/image-intro-desktop.jpg" alt="imgage of family" class="header-img">
-        </div>
+        <picture class="header__img-box">
+          <source srcset="images/image-intro-mobile.jpg" alt="image of family" class="resposive-img" media="(max-width: 1500px)">
+          <img src="images/image-intro-desktop.jpg" alt="image of family" class="header-img">
+        </picture>
       </div>
       <img src="images/bg-pattern-intro-left-desktop.svg" alt="pattern-design" class="pattern__img--2">
       <div class="features">
@@ -91,7 +92,6 @@
           <button class="block__button">
             How we work
           </button>
-        <!-- <img src="images/bg-pattern-how-we-work-desktop.svg" alt="pattern-design" class="pattern__img--3"> -->
         </div>
       </div>
 
