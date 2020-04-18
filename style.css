@@ -175,6 +175,7 @@ body {
   font-size: small;
   letter-spacing: 2px;
   font-weight: 700;
+  background-color: hsl(256, 26%, 20%);
 }
 .block__button:hover {
   background-color: white;
